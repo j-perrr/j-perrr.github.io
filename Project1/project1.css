@@ -1,0 +1,517 @@
+
+/* HOME PAGE */
+body
+{
+    background-color: red;
+    border: 2px solid goldenrod;
+   
+    margin: 0%;
+    padding: 5%;
+}
+
+/* HOME PAGE >  NAVIGATION */
+body .Navbar
+{
+    margin:0%;
+    height: 60px ;
+    width:100%; 
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: row;
+
+
+}
+.Navbar img
+{
+    width: 7%;
+    height: 90%;
+}
+.Navbar > .corner
+{
+    margin-left: 89%;
+}
+.Navbar dl
+{
+    margin-top: 0%;
+    /* height: 99.7%;
+    width: 99.9%; */
+    height: 100%;
+    width: 100%;
+
+    text-align: center;  
+    justify-content: center;
+
+    display: flex;
+
+}
+.Navbar dt
+{
+    height: 100%;
+    margin-left: 2%;
+    margin-top: 0;
+
+}
+.Navbar dt > a
+{
+    border: 3px solid goldenrod;
+
+    text-decoration: none;
+
+    font-size: 270%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: goldenrod;
+    -webkit-text-stroke: 2px black;
+   
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.Navbar dt :hover
+{
+    border: 3px solid black ;
+    background-color: goldenrod;
+    color: red;
+    -webkit-text-stroke: 2px black;
+}
+/* HOME PAGE > TITLE */
+.title
+{
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+}
+.title > h1
+{
+    color: goldenrod;
+    -webkit-text-stroke: 2px gold;
+}
+
+/* HOME PAGE > AMAZON */
+.homepage-amazon
+{
+    border: 2px solid goldenrod;
+    width: 80%;
+    height: 75%;
+
+    display:flex;
+    flex-direction: row;
+
+    position: relative;
+
+
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+.homepage-amazon> img
+{
+    display: flex;
+    flex-direction: row;
+    
+    height: 100%;
+    width: 100%;
+
+}
+.homepage-amazon > h2
+{
+    height: fit-content;
+    width: fit-content;
+
+    font-size: 75px;
+
+}
+.homepage-amazon > h2 > a
+{
+    text-decoration: none;
+     color: goldenrod;
+
+     position: absolute;
+     left: 38%;
+     top: 10%;
+
+     border: 2px solid black;
+     border-radius: 10px;
+     background-color: black
+}
+.homepage-amazon> h2 :hover
+{
+   background-color: goldenrod;
+   color: black;
+}
+
+/* HOME PAGE > ANDES */
+.homepage-andes
+{
+    border: 2px solid goldenrod;
+    width: 80%;
+    height: 75%;
+
+    display:flex;
+    flex-direction: row;
+
+    position: relative;
+
+
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.homepage-andes > img
+{
+    display: flex;
+    flex-direction: row;
+    
+    height: 100%;
+    width: 100%;
+}
+.homepage-andes > h2
+{
+    height: fit-content;
+    width: fit-content;
+
+    font-size:75px;
+
+}
+.homepage-andes > h2 > a
+{
+    text-decoration: none;
+     color: goldenrod;
+
+     position: absolute;
+     left: 39%;
+     top:10%;
+
+     border: 2px solid black; 
+     border-radius: 10px;
+     background-color: black
+}
+.homepage-andes> h2 :hover
+{
+   background-color: goldenrod;
+   color: black;
+}
+
+/* HOMEPAGE > COAST */
+.homepage-coast
+{
+    border: 2px solid goldenrod;
+    width: 80%;
+    height: 75%;
+
+    display:flex;
+    flex-direction: row;
+
+    position: relative;
+
+
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.homepage-coast > img
+{
+    display: flex;
+    flex-direction: row;
+    
+    height: 100%;
+    width: 100%;
+}
+.homepage-coast > h2
+{
+    height: fit-content;
+    width: fit-content;
+
+    font-size:75px;
+
+}
+.homepage-coast > h2 > a
+{
+    text-decoration: none;
+     color: goldenrod;
+
+     position: absolute;
+     left: 40%;
+     top:10%;
+
+     border: 2px solid black; 
+     border-radius: 10px;
+     background-color: black
+}
+.homepage-coast> h2 :hover
+{
+   background-color: goldenrod;
+   color: black;
+}
+
+/*---------------------------------------------------------------------------*/
+/*------  AMAZON  -----------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+/* body, navbar and title styling will be reused from homepage styling */
+.list-page
+{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.list-page > .niceFont
+{
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+    display: flex;
+    padding: 1%;
+
+    color: goldenrod;
+    -webkit-text-stroke: 1px gold;
+    margin-left: 33%;
+
+}
+.list-page > ol
+{
+    display: flex;
+    flex-direction: column;
+    background-color: goldenrod;
+    border: 5px solid red;
+
+    text-align: center;
+
+    margin-top: 0%;
+
+    font-size: large;
+}
+.container
+{
+    display: flex;
+    flex-direction: column; 
+}
+.bio-title
+{
+    border: 10px solid black;
+    height: fit-content;
+    width: fit-content;
+    
+    margin-left: 40%;
+
+    background-color: black;
+    color: goldenrod;
+    -webkit-text-stroke: 1px gold;  
+}
+
+.birds 
+{
+    width: 100%;
+    height: fit-content;
+}
+.birds> img
+{
+    width: 100%;
+}
+.blockQ
+{
+    display: flex;
+    border: 2px solid goldenrod;
+    width: fit-content;
+    margin-top: 0%;
+    padding: 1%;
+
+    justify-content: center;
+    text-align: center;
+
+    font-size: large;
+    background-color: black;
+    -webkit-text-stroke: 1px gold;
+}
+.pGraph
+{
+    display: block;
+    width: 100%;
+    margin:0%;
+    margin-top: 0%;
+    padding: 1%;
+
+    justify-content: center;
+    text-align: center;
+
+    background-color: black;
+    border: 2px solid goldenrod;
+
+    font-size: large;
+    -webkit-text-stroke: 1px gold;
+    color: goldenrod;
+}
+.pGraph > .submit
+{
+    font-size: larger;
+    -webkit-text-stroke: 1px goldenrod;
+    color: goldenrod;
+}
+
+.animals 
+{
+    width: 100%;
+    height: fit-content;
+}
+.animals> img
+{
+    width: 100%;
+}
+.plants 
+{
+    width: 100%;
+    height: fit-content;
+}
+.plants> img
+{
+    width: 100%;
+}
+/* DEMOGRAPHICS */
+
+.natives
+{
+    width: 100%;
+    height: fit-content;
+}
+.natives> img
+{
+    width: 100%;
+}
+.table-title > th
+{
+    width: 100%;
+    border: 3px solid goldenrod;
+
+    font-size:xx-large;
+    background-color: black;
+    -webkit-text-stroke: 1px gold;
+}
+.table-row > th
+{
+    border: 3px solid goldenrod;
+
+    font-size: x-large;
+    background-color: black;
+    -webkit-text-stroke: 1px gold;
+    
+    text-align: center;
+    margin: 0%;
+}
+
+.table-row > td
+{
+    border: 3px solid goldenrod;
+
+    font-size: larger;
+    background-color: black;
+    -webkit-text-stroke: 1px gold;
+
+    text-align: center;
+    margin: 0%;
+}
+
+.notable-title
+{
+    border: 10px solid black;
+    height: fit-content;
+    width: fit-content;
+    
+    margin-left: 30%;
+
+    background-color: black;
+    color: goldenrod;
+    -webkit-text-stroke: 1px gold; 
+}
+.imageSets
+{
+    width: 60%;
+    height: fit-content;
+
+    margin-left: 18%;
+}
+.imageSets > img
+{
+    width: 100%;
+}
+.imageSets > .mid
+{
+   margin-left: 0%;
+}
+/*---------------------------------------------------------------------------*/
+/*------  Reusable code  -----------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+.titleDiv
+{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    height: 50px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+}
+.titleDiv > h1
+{
+    color: goldenrod;
+    -webkit-text-stroke: 2px gold;
+}
+.titleDiv > h2
+{
+    margin-top: 0%;
+    background-color: black;
+    border: 2px solid goldenrod;
+    padding: 1%;
+    color: goldenrod;
+    -webkit-text-stroke: 2px gold;
+}
+
+.imageDiv
+{
+    width: 100%;
+    height: 600px;
+    border: 2px solid black;
+
+}
+.imageDiv > img
+{
+    width: 100%;
+    height: 100%;
+
+    border: 3px solid goldenrod;
+}
+
+
+
+/*---------------------------------------------------------------------------*/
+/*------  ANDES  -----------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------*/
+/*------  COAST  -----------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------*/
+/*------  CONTACT-PAGE  -----------------------------------------------------------*/
+/*---------------------------------------------------------------------------*/
+.vid
+{
+    height: fit-content;
+    width: fit-content;
+
+    margin-left: 28%;
+    margin-top: 3%;
+   
+}
+.vid > iframe
+{
+    border: 3px solid goldenrod;
+    justify-content: center;
+}
