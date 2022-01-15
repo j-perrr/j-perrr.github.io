@@ -1,0 +1,118 @@
+.container
+{
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid black;
+}
+.parent
+{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.hour
+{
+
+    width: 100px;
+    height: 125px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+
+    animation-name: hourHand;
+    animation-duration: 10s;
+    animation-fill-mode:forwards;
+}
+.minute
+{
+
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+
+    animation-name: minuteHand;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;   
+}
+
+@keyframes hourHand 
+{
+    0%
+    {
+        transform-origin:left;
+        transform: rotate(0deg);
+    }
+    25%
+    {
+        transform-origin:left;
+        transform: rotate(10deg);
+    }
+    50%
+    {
+        transform-origin: left;
+        transform: rotate(20deg);
+    }
+    100%
+    {
+        transform-origin: left;
+        transform: rotate(30deg);
+    }   
+}
+
+@keyframes minuteHand 
+{
+    0%
+    {
+        transform-origin:left;
+        transform: rotate(0deg);
+    }
+
+    25%
+    {
+        transform-origin:left;
+        transform: rotate(120deg);
+    }
+    50%
+    {
+        transform-origin: left;
+        transform: rotate(260deg);
+    }
+    100%
+    {
+        transform-origin: left;
+        transform: rotate(275deg);
+    }   
+}
+
+.box
+{
+    border: 2px solid black;
+    background-color: aqua;
+
+    position: relative;
+}
+.box > img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid red;
+
+    position: relative;
+}
+.heroImage
+{
+    display: block;
+    width: fit-content;
+    border: 3px solid red;
+    background-color: blue;
+
+    color: goldenrod;
+
+    position: absolute;
+    top: -9%;
+    left: 45%;
+
+}
