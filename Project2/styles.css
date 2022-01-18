@@ -1,0 +1,629 @@
+body
+{
+    background-color: bisque;
+    height: 100vh;
+}
+/* HEADER */
+.head
+{
+    margin-top: 0%;
+
+    height: 30%;
+    display: flex;
+    flex-flow: row;
+}
+.head > img
+{
+    border: 3px solid goldenrod;
+    border-radius: 10%;
+    display: block;
+    box-shadow: -2px 2px 5px;
+    height: 65%;
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+
+    animation: headerlogo 10s infinite;
+}
+@keyframes headerlogo 
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }    
+    25%
+    {
+        transform: rotate(90deg);
+    }
+    50%
+    {
+        transform: rotate(180deg);
+    }
+    75%
+    {
+        transform: rotate(270deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.title
+{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    animation: upndown 5s infinite;
+}
+.title > h1
+{
+    color: goldenrod;
+    font-size: 50px;
+    font-family: fantasy;
+
+    height: fit-content;
+    
+    margin: 0%;
+
+}
+.title > p
+{
+    color: black;
+    font-size: 25px;
+
+    margin: 0%;
+}
+@keyframes upndown 
+{
+    0%
+    {
+        margin-bottom: 0%;
+    } 
+    50%
+    {
+        margin-bottom: 5%;
+    }
+    100%
+    {
+        margin-bottom: 0%;
+    }  
+}
+/* SPECIAL */
+.special
+{
+    height: 90%;
+
+    margin-top: 5%;
+}
+.stage
+{
+    height: 15%;
+    margin: 0%;
+    overflow: hidden;
+}
+.slidewrap
+{
+    height: 100%;
+    width: 400%;
+
+    animation: leftnright 10s infinite;
+}
+
+@keyframes leftnright
+{
+    0%
+    {
+        margin-left: 100%;
+    }
+    100%
+    {
+       margin-left: 0;
+    }
+}
+
+.slidewrap > .text
+{
+    background-color:goldenrod ;
+    display: flex;
+    flex-flow: row;
+
+    width: 25%;
+    height: 100%;
+}
+.text > p
+{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: fit-content;
+    font-size: larger;
+
+    color: aqua;
+}
+.slidewrap > div
+{
+    width: 25%;
+    height: 100%;
+    background-color:darkgoldenrod;
+}
+.imageholder
+{
+    height: 85%;
+    width: 100%;
+
+    margin-top: 0%;
+
+    position: relative;
+}
+.imageholder > img
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.imageholder > p
+{
+    position: absolute;
+    display: block;
+    
+    border: 5px solid white;
+    background-color: gray;
+    height: 25%;
+    width: 35%;
+
+    top: 30%;
+    left: 5%;
+
+    text-align: center;
+    font-size:large;
+    text-overflow: ellipsis;
+    color: aqua;
+}
+/* two blocks */
+.twoblocks
+{
+    display: flex;
+    flex-flow: row;
+
+    height: 40%;
+
+    margin-top: 5%;
+}
+
+.twoblocks > .secondimageholder
+{
+    height: 100%;
+    width: 35%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+
+    background: linear-gradient(#e66465, #e912);
+}
+.secondimageholder > img
+{
+    position: relative;
+
+    opacity: 0.6;
+
+    height: 100%;
+    width: 100%;
+}
+.secondimageholder > p
+{
+    border: 2px solid red;
+    color: white;
+
+    width: 50%;
+    padding: 4%;
+    
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.twoblocktext
+{
+    border: 2px solid red;
+    height: fit-content;
+    width: 40%;
+    height: 100%;
+
+    background: linear-gradient(#e66465, #e912);
+
+    display: flex;
+    flex-flow: column;
+   
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.twoblocktext > h1 , p
+{
+    
+     width: 70%;
+
+     margin-left: auto;
+     margin-right: auto;
+
+     color: olive;
+}
+.twoblocktext > h1
+{
+    margin-top: auto;
+
+    font-size: x-large;
+}
+.twoblocktext > p
+{
+    margin-bottom: auto;
+
+    font-size: large;
+}
+
+/* Body lotions */
+.bodylotioncontainer
+{
+    margin-top: 5%;
+
+    height: 75%;
+    width: 100%;
+    
+    display: flex;
+    flex-flow: row;
+}
+.selection1
+{
+    display: flex;
+    flex-flow: column;
+    
+    height: 85%;
+    width: 25%;
+
+    margin-top: 1%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+}
+.selection1 > img
+{
+    height: 50%;
+}
+.selection1 > h2, h3, h4, p 
+{
+    margin-top: 0%;
+
+    width: fit-content;
+    height: fit-content;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.selection1 > p
+{
+    color: black;
+}
+.selection1 > a
+{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    
+    margin-top: 1%;
+
+    width: fit-content;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 2%;
+}
+
+.selection2
+{
+    display: flex;
+    flex-flow: column;
+    
+    height: 85%;
+    width: 25%;
+
+    margin-top: 1%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+}
+
+.selection2 > img
+{
+    height: 50%;
+}
+.selection2 > h2, h3, h4, p 
+{
+    margin-top: 2%;
+
+    width: fit-content;
+    height: fit-content;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.selection2 > p
+{
+    color: black;
+}
+
+.selection2 > a
+{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    
+    margin-top: 1%;
+
+    width: fit-content;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 2%;
+}
+
+.selection3
+{
+    display: flex;
+    flex-flow: column;
+    
+    height: 85%;
+    width: 25%;
+
+    margin-top: 1%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    justify-content: center;
+}
+
+.selection3 > img
+{
+    height: 50%;
+}
+.selection3 > h2, h3, h4, p 
+{
+    margin-top: 2%;
+
+    width: fit-content;
+    height: fit-content;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.selection3 > p
+{
+    color: black;
+    height: fit-content;
+}
+
+.selection3 > a
+{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    
+    margin-top: 1%;
+
+    width: fit-content;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 2%;
+}
+/* Modal Window */
+.mdlwindow
+{
+    opacity: 0;
+
+    margin: 0%;
+
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+
+    display: flex;
+    flex-flow: column;
+
+    background-color: rgba(255, 0, 0, 0.3);
+
+    pointer-events: none;
+}
+
+.mdlwindow:target
+{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.mdlcontainer
+{
+    background-color: white;
+    height: 80%;
+    width: 75%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.mdlcontainer > .exitbtn
+{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+
+    text-decoration: none;
+}
+.mdlcontainer > .l1
+{
+    font-size: x-large;
+    color: black;
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+
+}
+.mdlcontainer > .mdlbox
+{
+    height: 50%;
+    width: 75%;
+
+    display: flex;
+    flex-flow: row;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.mdlbox >img
+{
+    width: 40%;
+}
+.mdlbox > .mdlboxcontent
+{
+    width: 60%;
+
+    color: black;
+}
+.mdlboxcontent > h2, h3, p
+{
+    
+    width: 65%;
+    height: fit-content;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    color: black;
+}
+.mdlboxcontent > p
+{
+    color: black;
+}
+.mdlbox2
+{
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 75%;
+    height: 20%;
+}
+.mdlbox2 > p
+{
+    height: fit-content;
+    color: black;
+}
+.mdlbox2 > a
+{
+    background-color: black;
+
+    padding: 1%;
+
+    margin-left: 0%;
+
+    color: white;
+    text-decoration: none;
+}
+/* Footer */
+footer
+{
+    background-color: black;
+    width: 100%;
+    height: 75%;
+
+}
+footer > .row1
+{
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-flow: row;
+
+}
+.row1 > div
+{
+    height: 55%;
+    
+    display: flex;
+    flex-flow: column;
+    
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row1 > div > h2, p
+{
+    text-align: center;
+    overflow: auto;
+
+    margin: auto;
+
+    color: white;
+}
+ .row2
+{
+    height: fit-content;
+    width: fit-content;
+    
+
+    display: flex;
+    flex-flow: column;
+
+}
+.smcontainer
+{
+    display: flex;
+    flex-flow: row ;
+    height:100%;
+    width: 50%;
+
+    margin-left: 50%;
+
+}
+.smcontainer > a
+{
+    width: fit-content;
+    height: fit-content;
+}
+.im1, .im2, .im3, .im4 ,.im5
+{
+    height: 60%;
+    width: 60%;
+
+    margin: 0%;
+}
+.row3
+{
+    background-color: black;
+    color: white;
+    
+    margin-top: 10%;
+}
