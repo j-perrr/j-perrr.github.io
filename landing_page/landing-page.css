@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 1%;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgray;
+}
+.logoEdit {
+  -webkit-box-shadow: 0px 1px 19px 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 19px 2px rgba(0, 0, 0, 0.8);
+}
+
+.bttn {
+  display: block;
+  height: 20%;
+  width: fit-content;
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+
+  -webkit-box-shadow: 0px 1px 19px 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 19px 2px rgba(0, 0, 0, 0.8);
+
+  background-color: rgba(253, 171, 1, 255);
+  color: white;
+  text-decoration: none;
+  font-size: xx-large;
+  border-radius: 10%;
+}
+.bttn:hover {
+  color: rgba(253, 171, 1, 255);
+  background-color: black;
+}
+
+.contact {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+}
+.containContact {
+  -webkit-box-shadow: 0px 1px 19px 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 19px 2px rgba(0, 0, 0, 0.8);
+}
+
+.head {
+  background-color: rgba(253, 171, 1, 255);
+  border-radius: 5px;
+  margin-top: -40px;
+  -webkit-box-shadow: 0px 1px 19px 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 19px 2px rgba(0, 0, 0, 0.8);
+}
+
+.effect-1 {
+  border: 0;
+  outline: none;
+  width: 100%;
+  padding: 7px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.effect-1 ~ .Focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 10px;
+  background-color: rgba(253, 171, 1, 255);
+  transition: 0.4s;
+}
+.effect-1:focus ~ .Focus-border {
+  width: 99%;
+  transition: 0.4s;
+  left: 0;
+}
+.btn1 {
+  background: rgba(253, 171, 1, 255);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 145px;
+}
+.btn1:hover {
+  -webkit-box-shadow: 0px 1px 19px 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 19px 2px rgba(0, 0, 0, 0.8);
+}
+
+.footy {
+  margin: 0%;
+}
