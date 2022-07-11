@@ -1,0 +1,242 @@
+@import "compass/css3";
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0%;
+}
+.bg {
+  /* Full height */
+  width: 100%;
+  background-color: rgba(247, 247, 247, 255);
+
+  border: 5px solid black;
+}
+/* NAVIGATION */
+.top {
+  background-color: rgba(247, 247, 247, 255);
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  border: 3px solid orange;
+}
+
+.left-corner {
+  width: 10vw;
+}
+
+.logo {
+  width: 20vw;
+  height: 10vh;
+}
+
+.nav-icon {
+  width: 10vw;
+  height: 10vh;
+}
+/* CONTENT */
+
+.content-body {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 5px solid orange;
+}
+
+/* HERO BANNER */
+.hero {
+  border: 0px solid black;
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  height: 75vh;
+}
+
+.title-wrapper {
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
+
+  padding: 10px;
+  width: 20%;
+  height: 25%;
+
+  display: block;
+  border-radius: 45%;
+  background-color: black;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  text-align: center;
+  font-weight: 100;
+  font-size: xx-large;
+  color: white;
+}
+
+/* HOOKS */
+.hook {
+  background-color: aqua;
+  width: 100;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.hook-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.hook-text {
+  color: white;
+  font-size: x-large;
+  font-weight: 300;
+  line-height: 60px;
+  margin-left: 1vw;
+}
+.icon-phone {
+  width: 3vw;
+  height: 5vh;
+}
+.black {
+  background-color: black;
+  border: 3px solid black;
+}
+.icon-appointment {
+  width: 3vw;
+  height: 5vh;
+}
+.yellow {
+  background-color: orange;
+  border: 3px solid orange;
+}
+
+@media only screen and (max-width: 600px) {
+  /* NAV */
+  .logo {
+    width: 45vw;
+    height: 10vh;
+  }
+  .left-corner {
+    width: 20vw;
+    height: 11vh;
+  }
+  .nav-icon {
+    height: 7vh;
+    width: 7vh;
+    margin-top: 1vh;
+  }
+  /* HERO */
+  .hero {
+    border: 0px solid black;
+    position: relative;
+  }
+
+  .hero-img {
+    width: 100%;
+    height: 25vh;
+  }
+
+  .title-wrapper {
+    position: absolute;
+    top: 10vh;
+    left: 30vw;
+
+    padding: 10px;
+    width: 40%;
+    height: 40%;
+
+    display: block;
+    border-radius: 45%;
+    background-color: black;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    text-align: center;
+    font-weight: 100;
+    font-size: large;
+    color: white;
+  }
+  /* HOOK */
+  .hook-text {
+    color: white;
+    font-size: large;
+    font-weight: 300;
+    line-height: 60px;
+    margin-left: 1vw;
+  }
+  .icon-appointment {
+    width: 6vw;
+    height: 3vh;
+  }
+  .icon-phone {
+    width: 6vw;
+    height: 3vh;
+  }
+
+  /* MIDDLE CONTENT */
+  /* CARDS */
+  .card-container {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 5px solid orange;
+    background-color: orange;
+  }
+}
+
+/* MIDDLE CONTENT */
+.body-middle-wrapper {
+  padding: 10px;
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 5px solid black;
+  background-color: black;
+}
+.info-heading {
+  color: white;
+  font-size: xx-large;
+}
+/* CARDS */
+.card-container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 5px solid orange;
+  background-color: orange;
+}
+
+.info-text-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.info-text {
+  color: white;
+  font-size: larger;
+}
